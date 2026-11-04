@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="5">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="ПолноеИмя" id="9">
+			<DataPath>Объект.ПолноеИмя</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПолноеИмяКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ПолноеИмяРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="ДатаРождения" id="13">
+			<DataPath>Объект.ДатаРождения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Паспорт" id="17">
+			<DataPath>Объект.Паспорт</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПаспортКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ПаспортРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="БанковскиеРеквизиты" id="21">
+			<DataPath>Объект.БанковскиеРеквизиты</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанковскиеРеквизитыКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="БанковскиеРеквизитыРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<CheckBoxField name="НаличиеСемьи" id="25">
+			<DataPath>Объект.НаличиеСемьи</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаличиеСемьиКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="НаличиеСемьиРасширеннаяПодсказка" id="27"/>
+		</CheckBoxField>
+		<InputField name="СостояниеЗдоровья" id="29">
+			<DataPath>Объект.СостояниеЗдоровья</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СостояниеЗдоровьяКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="СостояниеЗдоровьяРасширеннаяПодсказка" id="31"/>
+		</InputField>
+		<InputField name="Позиция" id="33">
+			<DataPath>Объект.Позиция</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПозицияКонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="ПозицияРасширеннаяПодсказка" id="35"/>
+		</InputField>
+		<InputField name="Должность" id="37">
+			<DataPath>Объект.Должность</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДолжностьКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ДолжностьРасширеннаяПодсказка" id="39"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Сотрудники</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

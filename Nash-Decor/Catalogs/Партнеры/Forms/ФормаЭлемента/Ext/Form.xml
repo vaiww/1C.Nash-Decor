@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<VerticalScroll>use</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="5">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="Тип" id="9">
+			<DataPath>Объект.Тип</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="Адрес" id="13">
+			<DataPath>Объект.Адрес</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="АдресКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ИмяДиректора" id="17">
+			<DataPath>Объект.ИмяДиректора</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяДиректораКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ИмяДиректораРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="Телефон" id="21">
+			<DataPath>Объект.Телефон</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТелефонКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="ИНН" id="25">
+			<DataPath>Объект.ИНН</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИННКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Скидка" id="29">
+			<DataPath>Объект.Скидка</DataPath>
+			<Enabled>false</Enabled>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скидка будет рассчитана автоматически сразу после фиксации факта продажи продукции.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СкидкаКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="СкидкаРасширеннаяПодсказка" id="31"/>
+		</InputField>
+		<InputField name="Рейтинг" id="33">
+			<DataPath>Объект.Рейтинг</DataPath>
+			<Enabled>false</Enabled>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг устанавливается менеджером.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РейтингКонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="РейтингРасширеннаяПодсказка" id="35"/>
+		</InputField>
+		<Button name="ВыбратьЛоготип" id="50">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыбратьЛоготип</CommandName>
+			<TextColor>#FFFFFF</TextColor>
+			<BackColor>#4F8A54</BackColor>
+			<ExtendedTooltip name="ВыбратьЛоготипРасширеннаяПодсказка" id="51"/>
+		</Button>
+		<PictureField name="СсылкаНаКартинку" id="46">
+			<DataPath>СсылкаНаКартинку</DataPath>
+			<PictureSize>Proportionally</PictureSize>
+			<Hyperlink>true</Hyperlink>
+			<ContextMenu name="СсылкаНаКартинкуКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="СсылкаНаКартинкуРасширеннаяПодсказка" id="48"/>
+			<Events>
+				<Event name="Click">СсылкаНаКартинкуНажатие</Event>
+			</Events>
+		</PictureField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Партнеры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СсылкаНаКартинку" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логотип</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыбратьЛоготип" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать логотип</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать логотип</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьЛоготип</Action>
+		</Command>
+	</Commands>
+</Form>

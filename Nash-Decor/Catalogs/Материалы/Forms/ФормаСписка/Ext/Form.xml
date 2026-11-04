@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<VerticalScroll>use</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<RowSelectionMode>Row</RowSelectionMode>
+			<Header>false</Header>
+			<HorizontalScrollBar>UseAlways</HorizontalScrollBar>
+			<VerticalScrollBar>UseAlways</VerticalScrollBar>
+			<HorizontalLinesBWA>true</HorizontalLinesBWA>
+			<VerticalLinesBWA>true</VerticalLinesBWA>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<TitleFont ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+			<ShowCommandBar>false</ShowCommandBar>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<ColumnGroup name="Группа1" id="78">
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="79"/>
+					<ChildItems>
+						<ColumnGroup name="Группа2" id="80">
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="81"/>
+							<ChildItems>
+								<LabelField name="Наименование" id="24">
+									<DataPath>Список.Наименование</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem" scale="100"/>
+									<Font ref="style:NormalTextFont" height="14" kind="StyleItem" scale="100"/>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="26"/>
+								</LabelField>
+								<LabelField name="Разделитель" id="84">
+									<DataPath>Список.Разделитель</DataPath>
+									<Font ref="style:NormalTextFont" height="14" kind="StyleItem" scale="100"/>
+									<ContextMenu name="РазделительКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="РазделительРасширеннаяПодсказка" id="86"/>
+								</LabelField>
+								<LabelField name="ТипМатериала" id="66">
+									<DataPath>Список.ТипМатериала</DataPath>
+									<Font ref="style:NormalTextFont" height="14" kind="StyleItem" scale="100"/>
+									<ContextMenu name="ТипМатериалаКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ТипМатериалаРасширеннаяПодсказка" id="68"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="Группа3" id="82">
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="83"/>
+							<ChildItems>
+								<LabelField name="Цена" id="70">
+									<DataPath>Список.Цена</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="ЦенаКонтекстноеМеню" id="71"/>
+									<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="72"/>
+								</LabelField>
+								<LabelField name="ЕдиницаИзмерения" id="38">
+									<DataPath>Список.ЕдиницаИзмерения</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="40"/>
+								</LabelField>
+								<LabelField name="КоличествоВНаличии" id="42">
+									<DataPath>Список.КоличествоВНаличии</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="КоличествоВНаличииКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="КоличествоВНаличииРасширеннаяПодсказка" id="44"/>
+								</LabelField>
+								<LabelField name="МинимальныйРазмер" id="54">
+									<DataPath>Список.МинимальныйРазмер</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="МинимальныйРазмерКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="МинимальныйРазмерРасширеннаяПодсказка" id="56"/>
+								</LabelField>
+								<LabelField name="МинимальноеКоличество" id="50">
+									<DataPath>Список.МинимальноеКоличество</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="МинимальноеКоличествоКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="МинимальноеКоличествоРасширеннаяПодсказка" id="52"/>
+								</LabelField>
+								<LabelField name="КоличествоНаСкладе" id="46">
+									<DataPath>Список.КоличествоНаСкладе</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="КоличествоНаСкладеКонтекстноеМеню" id="47"/>
+									<ExtendedTooltip name="КоличествоНаСкладеРасширеннаяПодсказка" id="48"/>
+								</LabelField>
+								<LabelField name="КоличествоВУпаковке" id="74">
+									<DataPath>Список.КоличествоВУпаковке</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="КоличествоВУпаковкеКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="КоличествоВУпаковкеРасширеннаяПодсказка" id="76"/>
+								</LabelField>
+								<LabelField name="Описание" id="58">
+									<DataPath>Список.Описание</DataPath>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+									<ContextMenu name="ОписаниеКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="60"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</ColumnGroup>
+				<LabelField name="Код" id="28">
+					<DataPath>Список.Код</DataPath>
+					<Visible>false</Visible>
+					<ContextMenu name="КодКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="ПроцентБракаМатериала" id="62">
+					<DataPath>Список.ПроцентБракаМатериала</DataPath>
+					<ContextMenu name="ПроцентБракаМатериалаКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ПроцентБракаМатериалаРасширеннаяПодсказка" id="64"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	СправочникМатериалы.Ссылка КАК Ссылка,
+	СправочникМатериалы.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникМатериалы.Код КАК Код,
+	СправочникМатериалы.Наименование КАК Наименование,
+	СправочникМатериалы.ТипМатериала КАК ТипМатериала,
+	СправочникМатериалы.ПроцентБракаМатериала КАК ПроцентБракаМатериала,
+	СправочникМатериалы.Цена КАК Цена,
+	СправочникМатериалы.КоличествоВНаличии КАК КоличествоВНаличии,
+	СправочникМатериалы.МинимальныйРазмер КАК МинимальныйРазмер,
+	СправочникМатериалы.КоличествоВУпаковке КАК КоличествоВУпаковке,
+	СправочникМатериалы.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СправочникМатериалы.Описание КАК Описание,
+	СправочникМатериалы.МинимальноеКоличество КАК МинимальноеКоличество,
+	СправочникМатериалы.КоличествоНаСкладе КАК КоличествоНаСкладе,
+	СправочникМатериалы.Предопределенный КАК Предопределенный,
+	СправочникМатериалы.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	СТРОКА(" | ") КАК Разделитель
+ИЗ
+	Справочник.Материалы КАК СправочникМатериалы</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>МинимальныйРазмер</dcssch:dataPath>
+					<dcssch:field>МинимальныйРазмер</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоВНаличии</dcssch:dataPath>
+					<dcssch:field>КоличествоВНаличии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Цена</dcssch:dataPath>
+					<dcssch:field>Цена</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипМатериала</dcssch:dataPath>
+					<dcssch:field>ТипМатериала</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПроцентБракаМатериала</dcssch:dataPath>
+					<dcssch:field>ПроцентБракаМатериала</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоВУпаковке</dcssch:dataPath>
+					<dcssch:field>КоличествоВУпаковке</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЕдиницаИзмерения</dcssch:dataPath>
+					<dcssch:field>ЕдиницаИзмерения</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Описание</dcssch:dataPath>
+					<dcssch:field>Описание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>МинимальноеКоличество</dcssch:dataPath>
+					<dcssch:field>МинимальноеКоличество</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоНаСкладе</dcssch:dataPath>
+					<dcssch:field>КоличествоНаСкладе</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Разделитель</dcssch:dataPath>
+					<dcssch:field>Разделитель</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделитель</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<MainTable>Catalog.Материалы</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<VerticalScroll>use</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<Header>false</Header>
+			<VerticalScrollBar>UseAlways</VerticalScrollBar>
+			<HorizontalLinesBWA>true</HorizontalLinesBWA>
+			<VerticalLinesBWA>true</VerticalLinesBWA>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<ShowCommandBar>false</ShowCommandBar>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<PictureField name="Изображение" id="74">
+					<DataPath>Список.Изображение</DataPath>
+					<Width>10</Width>
+					<MaxWidth>5</MaxWidth>
+					<Height>10</Height>
+					<MaxHeight>5</MaxHeight>
+					<Hyperlink>true</Hyperlink>
+					<ContextMenu name="ИзображениеКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ИзображениеРасширеннаяПодсказка" id="76"/>
+				</PictureField>
+				<ColumnGroup name="Группа1" id="82">
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="83"/>
+					<ChildItems>
+						<LabelField name="Наименование" id="24">
+							<DataPath>Список.НаименованиеИАртикул</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование|Артикул</v8:content>
+								</v8:item>
+							</Title>
+							<Font ref="style:NormalTextFont" kind="StyleItem"/>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="26"/>
+						</LabelField>
+						<InputField name="МинимальнаяЦена" id="46">
+							<DataPath>Список.МинимальнаяЦена</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="МинимальнаяЦенаКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="МинимальнаяЦенаРасширеннаяПодсказка" id="48"/>
+						</InputField>
+						<InputField name="Ширина" id="50">
+							<DataPath>Список.Ширина</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ШиринаКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ШиринаРасширеннаяПодсказка" id="52"/>
+						</InputField>
+						<InputField name="ОбщийВес" id="58">
+							<DataPath>Список.ОбщийВес</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОбщийВесКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ОбщийВесРасширеннаяПодсказка" id="60"/>
+						</InputField>
+						<InputField name="ВесоваяСетка" id="54">
+							<DataPath>Список.ВесоваяСетка</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВесоваяСеткаКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="ВесоваяСеткаРасширеннаяПодсказка" id="56"/>
+						</InputField>
+						<InputField name="РазмерУпаковки" id="62">
+							<DataPath>Список.РазмерУпаковки</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РазмерУпаковкиКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="РазмерУпаковкиРасширеннаяПодсказка" id="64"/>
+						</InputField>
+						<InputField name="ВремяПроизводства" id="66">
+							<DataPath>Список.ВремяПроизводства</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВремяПроизводстваКонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="ВремяПроизводстваРасширеннаяПодсказка" id="68"/>
+						</InputField>
+						<InputField name="ТипПродукции" id="78">
+							<DataPath>Список.ТипПродукции</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипПродукцииКонтекстноеМеню" id="79"/>
+							<ExtendedTooltip name="ТипПродукцииРасширеннаяПодсказка" id="80"/>
+						</InputField>
+						<ColumnGroup name="Группа2" id="84">
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="85"/>
+							<ChildItems>
+								<LabelField name="Статья" id="42">
+									<DataPath>Список.Статья</DataPath>
+									<ContextMenu name="СтатьяКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="СтатьяРасширеннаяПодсказка" id="44"/>
+								</LabelField>
+								<LabelField name="Описание" id="103">
+									<DataPath>Список.Описание</DataPath>
+									<ContextMenu name="ОписаниеКонтекстноеМеню" id="104"/>
+									<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="105"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="Стоимость" id="70">
+					<DataPath>Список.Стоимость</DataPath>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СтоимостьКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="СтоимостьРасширеннаяПодсказка" id="72"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+    СправочникПродукция.Ссылка,
+    СправочникПродукция.ПометкаУдаления,
+    СправочникПродукция.Код,
+    
+    // Основная информация (первая строка)
+        ВЫБОР
+        КОГДА СправочникПродукция.Артикул = "" ТОГДА СправочникПродукция.Наименование
+        ИНАЧЕ СправочникПродукция.Наименование + " | " + СправочникПродукция.Артикул
+    КОНЕЦ КАК НаименованиеИАртикул,
+   
+    СправочникПродукция.Статья КАК Статья,
+    СправочникПродукция.Описание КАК Описание,
+ 
+        // Финансовые показатели
+    СправочникПродукция.МинимальнаяЦена КАК МинимальнаяЦена,
+    СправочникПродукция.Стоимость КАК Стоимость,
+    
+    // Габариты и вес
+    СправочникПродукция.Ширина КАК Ширина,
+    СправочникПродукция.ВесоваяСетка КАК ВесоваяСетка,
+    СправочникПродукция.ОбщийВес КАК ОбщийВес,
+    СправочникПродукция.РазмерУпаковки КАК РазмерУпаковки,
+    
+    // Производство
+    СправочникПродукция.ВремяПроизводства КАК ВремяПроизводства,
+    
+    // Вспомогательные поля
+    СправочникПродукция.Изображение КАК Изображение,
+    СправочникПродукция.ТипПродукции КАК ТипПродукции,
+    СправочникПродукция.СпецификацияПродукции КАК СпецификацияПродукции,
+    СправочникПродукция.Предопределенный КАК Предопределенный,
+    СправочникПродукция.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
+    
+ИЗ
+    Справочник.Продукция КАК СправочникПродукция
+ГДЕ
+    НЕ СправочникПродукция.ПометкаУдаления
+    </QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ширина</dcssch:dataPath>
+					<dcssch:field>Ширина</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СпецификацияПродукции.НомерСтроки</dcssch:dataPath>
+					<dcssch:field>СпецификацияПродукции.НомерСтроки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>МинимальнаяЦена</dcssch:dataPath>
+					<dcssch:field>МинимальнаяЦена</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Артикул</dcssch:dataPath>
+					<dcssch:field>Артикул</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВесоваяСетка</dcssch:dataPath>
+					<dcssch:field>ВесоваяСетка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбщийВес</dcssch:dataPath>
+					<dcssch:field>ОбщийВес</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РазмерУпаковки</dcssch:dataPath>
+					<dcssch:field>РазмерУпаковки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВремяПроизводства</dcssch:dataPath>
+					<dcssch:field>ВремяПроизводства</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Стоимость</dcssch:dataPath>
+					<dcssch:field>Стоимость</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Изображение</dcssch:dataPath>
+					<dcssch:field>Изображение</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипПродукции</dcssch:dataPath>
+					<dcssch:field>ТипПродукции</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СпецификацияПродукции.Ссылка</dcssch:dataPath>
+					<dcssch:field>СпецификацияПродукции.Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СпецификацияПродукции.Продукт</dcssch:dataPath>
+					<dcssch:field>СпецификацияПродукции.Продукт</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СпецификацияПродукции.Материал</dcssch:dataPath>
+					<dcssch:field>СпецификацияПродукции.Материал</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СпецификацияПродукции.ТребуемоеКоличество</dcssch:dataPath>
+					<dcssch:field>СпецификацияПродукции.ТребуемоеКоличество</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
+					<dcssch:dataPath>СпецификацияПродукции</dcssch:dataPath>
+					<dcssch:field>СпецификацияПродукции</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Описание</dcssch:dataPath>
+					<dcssch:field>Описание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Статья</dcssch:dataPath>
+					<dcssch:field>Статья</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеИАртикул</dcssch:dataPath>
+					<dcssch:field>НаименованиеИАртикул</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование и артикул</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<MainTable>Catalog.Продукция</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>
